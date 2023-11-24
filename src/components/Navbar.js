@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Navbar.css";
+import pic3 from "../images/logo.png";
 
 const Header = () => {
   const [Mobile, setMobile] = useState(false);
@@ -9,7 +10,7 @@ const Header = () => {
         <div className="container flexSB">
           <nav className="flexSB">
             <div className="logo">
-              <img src="./images/logo.png" alt="" />
+              <img src={pic3} alt="" />
             </div>
             {/*<ul className='flexSB'>*/}
             <ul
@@ -17,7 +18,7 @@ const Header = () => {
               onClick={() => setMobile(false)}
             >
               <li>
-                <a href="/STREAMIT">Home</a>
+                <a href="/netflix_dub">Home</a>
               </li>
               <li>
                 <a>Series</a>

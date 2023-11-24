@@ -1,3 +1,26 @@
+import img1 from "../images/home1.jpg";
+import img2 from "../images/home2.jpg";
+import img3 from "../images/home3.jpg";
+import img4 from "../images/home4.jpg";
+import vid1 from "../video/video1.mp4";
+import vid2 from "../video/video2.mp4";
+import vid3 from "../video/video3.mp4";
+import vid4 from "../video/video4.mp4";
+import u1 from "../images/upcome/u1.jpg";
+import u2 from "../images/upcome/u2.jpg";
+import u3 from "../images/upcome/u3.jpg";
+import u4 from "../images/upcome/u4.jpg";
+import u5 from "../images/upcome/u5.jpg";
+import u6 from "../images/upcome/u6.png";
+import u7 from "../images/upcome/u7.jpg";
+import slide1 from "../images/img/slide1.png";
+import slide2 from "../images/img/slide2.jpg";
+import slide3 from "../images/img/slide3.jpg";
+import rec1 from "../images/rec/rec1.jpg";
+import rec2 from "../images/rec/rec2.jpg";
+import rec3 from "../images/rec/rec3.jpg";
+import rec4 from "../images/rec/rec4.jpg";
+
 export const homeData = [
   {
     id: 1,
@@ -8,8 +31,8 @@ export const homeData = [
     starring: "Karen Gilchrist, James Earl Jones",
     genres: "Action",
     tags: "Action, Adventures, Horror",
-    cover: "../images/home1.jpg",
-    video: "../video/video1.mp4",
+    cover: img1,
+    video: vid1,
     date: "20-Jan-1997",
   },
   {
@@ -21,8 +44,8 @@ export const homeData = [
     starring: "Brenda Chapman, Jeff Nathanson",
     genres: "Adventures",
     tags: "Adventures,Animation,Family",
-    cover: "../images/home2.jpg",
-    video: "../video/video2.mp4",
+    cover: img2,
+    video: vid2,
     date: "10-JUL-2021",
   },
   {
@@ -34,8 +57,8 @@ export const homeData = [
     starring: "James Chinlund, Jeff Nathanson",
     genres: "Adventures",
     tags: "Adventures,Action ",
-    cover: "../images/home3.jpg",
-    video: "../video/video3.mp4",
+    cover: img3,
+    video: vid3,
     date: "20-FEB-2010",
   },
   {
@@ -47,39 +70,39 @@ export const homeData = [
     starring: "Karen Gilchrist, James Earl Jones",
     genres: "Action",
     tags: "Action, Adventures, Horror",
-    cover: "../images/home4.jpg",
-    video: "../video/video4.mp4",
+    cover: img4,
+    video: vid4,
     date: "12-Aug-2015",
   },
 ];
 export const upcome = [
   {
     id: 1,
-    cover: "../images/upcome/u1.jpg",
+    cover: u1,
     name: "My office Boss",
     time: "2hr : 38mins",
   },
   {
     id: 2,
-    cover: "../images/upcome/u2.jpg",
+    cover: u2,
     name: "Shadower",
     time: "2hr : 38mins",
   },
   {
     id: 3,
-    cover: "../images/upcome/u3.jpg",
+    cover: u3,
     name: "Another Danger",
     time: "2hr : 38mins",
   },
   {
     id: 4,
-    cover: "../images/upcome/u4.jpg",
+    cover: u4,
     name: "One Man Army",
     time: "2hr : 38mins",
   },
   {
     id: 5,
-    cover: "../images/upcome/u5.jpg",
+    cover: u5,
     name: "Jumbo Queen",
     time: "2hr : 38mins",
   },
@@ -87,31 +110,31 @@ export const upcome = [
 export const latest = [
   {
     id: 1,
-    cover: "../images/upcome/u6.png",
+    cover: u6,
     name: "King of Jungle",
     time: "2hr : 38mins",
   },
   {
     id: 2,
-    cover: "../images/upcome/u7.jpg",
+    cover: u7,
     name: "The illusion",
     time: "2hr : 38mins",
   },
   {
     id: 3,
-    cover: "../images/upcome/u1.jpg",
+    cover: u1,
     name: "Latest Movie",
     time: "2hr : 38mins",
   },
   {
     id: 4,
-    cover: "../images/upcome/u5.jpg",
+    cover: u5,
     name: "Latest two",
     time: "2hr : 38mins",
   },
   {
     id: 5,
-    cover: "../images/upcome/u4.jpg",
+    cover: u4,
     name: "Latest Three",
     time: "2hr : 38mins",
   },
@@ -127,7 +150,7 @@ export const trending = [
     starring: "Karen Gilchrist, James Earl Jones",
     genres: "Action",
     tags: "Action, Adventures, Horror",
-    cover: "../images/img/slide1.png",
+    cover: slide1,
     date: "20-Jan-1997",
   },
   {
@@ -139,7 +162,7 @@ export const trending = [
     starring: "Brenda Chapman, Jeff Nathanson",
     genres: "Adventures",
     tags: "Adventures,Animation,Family",
-    cover: "../images/img/slide2.jpg",
+    cover: slide2,
     date: "10-JUL-2021",
   },
   {
@@ -151,38 +174,38 @@ export const trending = [
     starring: "James Chinlund, Jeff Nathanson",
     genres: "Adventures",
     tags: "Adventures,Action ",
-    cover: "../images/img/slide3.jpg",
+    cover: slide3,
     date: "20-FEB-2010",
   },
 ];
 export const recommended = [
   {
     id: 4,
-    cover: "../images/rec/rec1.jpg",
+    cover: rec1,
     name: "One Man Army",
     time: "2hr : 38mins",
   },
   {
     id: 5,
-    cover: "../images/rec/rec2.jpg",
+    cover: rec2,
     name: "Jumbo Queen",
     time: "2hr : 38mins",
   },
   {
     id: 1,
-    cover: "../images/rec/rec3.jpg",
+    cover: rec3,
     name: "My office Boss",
     time: "2hr : 38mins",
   },
   {
     id: 2,
-    cover: "../images/rec/rec4.jpg",
+    cover: rec4,
     name: "Shadower",
     time: "2hr : 38mins",
   },
   {
     id: 3,
-    cover: "../images/upcome/u3.jpg",
+    cover: u3,
     name: "Another Danger",
     time: "2hr : 38mins",
   },

@@ -1,4 +1,6 @@
 import React from "react";
+import pic1 from "../images/play-button.png";
+import pic2 from "../images/play.png";
 import { Link } from "react-router-dom";
 
 const HomeCard = ({
@@ -48,8 +50,8 @@ const HomeCard = ({
             <Link to={`/singlepage/${id}`}>
               <button>
                 <div className="img">
-                  <img src="./images/play-button.png" alt="" />
-                  <img src="./images/play.png" className="change" alt="" />
+                  <img src={pic1} alt="" />
+                  <img src={pic2} className="change" alt="" />
                 </div>
                 WATCH TRAILER
               </button>
